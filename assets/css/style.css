@@ -13,9 +13,21 @@
   .logo_sony {
     max-width: 80px;
   }
-  .chevron_down {
+  .chevron_switch::after{
+    content: url(../img/chevron-down-solid.svg);
     width: 1rem;
+    height: 1rem;
+    transition: transform 0.5s;
+    margin-left: 0.4rem;
   }
+  .chevron_switch.show::after {
+    content: url(../img/chevron-down-solid-hover.svg);
+    transition: transform 0.5s;
+    transform: rotateX(180deg);
+}
+.chevron_switch:hover{
+  color: ;
+}
   .dropdown {
     position: static;
   }

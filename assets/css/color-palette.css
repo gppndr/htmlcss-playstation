@@ -74,4 +74,42 @@
   .btn_white {
     background-color: white;
   }
+
+  /* hover btn */
+ .btn_gray:hover{
+    background-color: var(--btn-blue)!important;
+    color: white!important;
+    box-shadow: inset 0px 0px 0px 3px white;
+    transition: 0.5s;
+ }
+
+ .btn_orange:hover{
+    background-color: var(--btn-orange)!important;
+    color: white!important;
+    box-shadow: inset 0px 0px 0px 3px white;
+    transition: 0.5s;
+ }
+ .btn_blue:hover {
+    background-color: var(--btn-blue)!important;
+    color: white!important;
+    box-shadow: inset 0px 0px 0px 3px white;
+    transition: 0.5s;
+  }
+  .btn_light_gray:hover {
+    background-color: var(--btn-light-gray)!important;
+    color: var(--text-blue)!important;
+    box-shadow: inset 0px 0px 0px 3px var(--text-blue);
+    transition: 0.5s;
+  }
+  .btn_white:hover{
+    background-color: white!important;
+    color: var(--subtitle)!important;
+    box-shadow: inset 0px 0px 0px 3px var(--subtitle);
+    transition: 0.5s;
+  }
   
+  /* hover text navbar */
+  .chevron_switch:hover{
+    color: var(--btn-blue);
+    transition: 0.3s;
+  }
