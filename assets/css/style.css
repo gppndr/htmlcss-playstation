@@ -1,0 +1,122 @@
+* {
+    font-family: "Montserrat", sans-serif;
+  }
+  /* /utilities */
+  a {
+    text-decoration: none;
+  }
+  ul li {
+    list-style: none;
+  }
+  
+  /* #region header */
+  .logo_sony {
+    max-width: 80px;
+  }
+  .chevron_down {
+    width: 1rem;
+  }
+  .dropdown {
+    position: static;
+  }
+  .ms_dropdown_menu {
+    width: 100%;
+  }
+  .playstation_card img {
+    width: 50%;
+  }
+  .circle::before {
+    content: "• ";
+    color: var(--text-blue);
+    font-weight: bolder;
+    padding: 0 0.5rem;
+    font-size: 1.3rem;
+  }
+  .circle {
+    font-size: 0.92rem;
+  }
+  /* #endregion header */
+  
+  /* #region main */
+  
+  /* #region hero */
+  .hero {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center top;
+    background-size: cover;
+    height: 600px;
+  }
+  .hero .card {
+    max-width: 400px;
+    background: none;
+  }
+  
+  .logo_returnal {
+    width: 60%;
+  }
+  /* #endregion hero */
+  /* #region catalogo */
+  .move {
+    position: relative;
+    top: 0;
+    transition: top ease 1s;
+  }
+  .move:hover {
+    top: -15px;
+  }
+  .move img:hover {
+    border: 5px solid #2d64e6;
+  }
+  /* #region peripherals*/
+  .peripherals img {
+    max-width: 60%;
+  }
+  /* #endregion peripherals */
+  
+  /* #region it takes two */
+  .it_takes_two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 600px;
+  }
+  .it_takes_two .card {
+    max-width: 400px;
+    background: none;
+  }
+  .logo_itk2 {
+    width: 60%;
+  }
+  /* #endregion it takes two */
+  
+  /* #region psplus psnow */
+  .psplus .card img,
+  .psnow .card img {
+    max-width: 55%;
+  }
+  /* #endregion psplus psnow  */
+  
+  /* #region social */
+  .social .container-fluid {
+    max-width: 800px;
+  }
+  /* #endregion social */
+  /* #endregion main */
+  
+  /* #region footer */
+  footer ul li a {
+    color: white;
+  }
+  .ps_logo {
+    width: 15%;
+  }
+  .sony_interactive {
+    max-width: 30%;
+  }
+  
+  /* #region hover */
+  /* #region hoverheader */
+  .playstation_card:hover {
+    box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.216);
+  }
+  

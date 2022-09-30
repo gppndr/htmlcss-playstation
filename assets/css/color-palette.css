@@ -1,0 +1,77 @@
+/* bg */
+:root {
+    --bg-header-top: #000000;
+    --bg-footer: #00439c;
+    --bg-new-games: #1f1f1f;
+    --bg-ps-plus: #bebcbb;
+    --ps-now: #161c3b;
+  }
+  
+  /* text color */
+  :root {
+    --title: #303030;
+    --text-blue: #529fde;
+    --subtitle: #787878;
+    --navbar: #222222;
+    --heading: #1f1f1f;
+  }
+  
+  /* btn color */
+  :root {
+    --btn-blue: #2d64e6;
+    --btn-gray: #363636;
+    --btn-orange: #cd3d0f;
+    --btn-light-gray: #d9dadc;
+  }
+  
+  /* background color */
+  .ms-logo-sony {
+    background-color: var(--bg-header-top);
+  }
+  .release {
+    background-color: var(--bg-new-games);
+  }
+  .psplus {
+    background-color: var(--bg-ps-plus);
+  }
+  .psnow {
+    background-color: var(--ps-now);
+  }
+  footer{
+      background-color: var(--bg-footer);
+  }
+  /* text */
+  .ms_text_dark {
+    color: var(--navbar);
+  }
+  .ms_text_blue {
+    color: var(--text-blue);
+  }
+  .ms_text_heading {
+    color: var(--heading);
+  }
+  .ms_text_subtitle {
+    color: var(--subtitle);
+  }
+  .ms_text_title {
+    color: var(--title);
+  }
+  
+  /* btn */
+  .btn_gray {
+    background-color: var(--btn-gray);
+    color: white;
+  }
+  .btn_orange {
+    background-color: var(--btn-orange);
+  }
+  .btn_blue {
+    background-color: var(--btn-blue);
+  }
+  .btn_light_gray {
+    background-color: var(--btn-light-gray);
+  }
+  .btn_white {
+    background-color: white;
+  }
+  
