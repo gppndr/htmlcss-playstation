@@ -25,9 +25,6 @@
     transition: transform 0.5s;
     transform: rotateX(180deg);
 }
-.chevron_switch:hover{
-  color: ;
-}
   .dropdown {
     position: static;
   }
